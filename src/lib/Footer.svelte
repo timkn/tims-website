@@ -28,8 +28,8 @@
             <GradientButton href="https://github.com/timkn" color="redToYellow">
                 <GithubSolid class="mr-2 h-3.5 w-3.5" /> GitHub
             </GradientButton>
-            <a class="text-center" href="./imprint">Impressum</a>
-            <a class="text-center" href="./privacy">Datenschutzerklärung</a>
+            <a class="text-center" href="/imprint">Impressum</a>
+            <a class="text-center" href="/privacy">Datenschutzerklärung</a>
         </div>
     </div>
 </div>
