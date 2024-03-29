@@ -17,6 +17,10 @@
         {
           "title": "BR Next",
           "url": "https://www.linkedin.com/feed/update/urn:li:activity:7154171360980647937/"
+        },
+        {
+          "title": "deRSE24",
+          "url": "https://events.hifis.net/event/994/contributions/8483/"
         }
       ]
     },
@@ -82,7 +86,6 @@
     {
       "title": "CHECK24 GenDen holiday challange",
       "subtitle": "CHECK24 Challange",
-
       "description": "This project is part of the CHECK24 GenDev Holiday Challenge. The app is built with a SvelteKit frontend, a FastAPI backend interfaced with a PostgreSQL database, and also incorporates a Redis cache for performance enhancement.",
       "url": "https://github.com/timkn/CHECK24-GenDev",
       "tags": ["Python", "SvelteKit", "TailwindCSS", "Redis", "Postgres"],
@@ -96,7 +99,6 @@
     {
       "title": "openLYKE",
       "subtitle": "JA Sciene Hack 2023",
-
       "description": "openLYKE, an open and transparent social media platform that puts you in control. With openLYKE, you can connect with others, share your thoughts, and engage in meaningful conversations while having full control over your data and privacy.",
       "url": "https://github.com/openLYKE/backend",
       "tags": ["Flutter", "Python"],
@@ -112,16 +114,15 @@
       ]
     },
     {
-      "title": "personal website",
+      "title": "knothe.me - Personal Website",
       "subtitle": "personal project",
-
       "description": "The personal website. Designed and coded by myself. In the forontend/backend SvelteKit, styling with Flowbite and TailwindCSS.",
-      "url": "https://github.com/timkn/tims-website",
+      "url": "https://knothe.me",
       "tags": ["SvelteKit", "TailwindCSS"],
       "links": [
         {
-          "title": "GitHub",
-          "url": "github.com"
+          "title": "knothe.me",
+          "url": "https://knothe.me"
         }
       ]
     }
