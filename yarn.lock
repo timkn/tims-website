@@ -7,10 +7,10 @@
   resolved "https://registry.npmjs.org/@alloc/quick-lru/-/quick-lru-5.2.0.tgz"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@babel/runtime@^7.23.7":
-  version "7.24.0"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.24.0.tgz"
-  integrity sha512-Chk32uHMg6TnQdvw2e9IlqPpFX/6NLuK0Ys2PqLb7/gL5uFn9mXvK715FGLlOLQrcO4qIkNHkvPGktzzXexsFw==
+"@babel/runtime@^7.24.1":
+  version "7.24.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
+  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -133,6 +133,26 @@
   version "2.1.1"
   resolved "https://registry.npmjs.org/@fastify/busboy/-/busboy-2.1.1.tgz"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
+
+"@floating-ui/core@^1.0.0":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.6.2.tgz#d37f3e0ac1f1c756c7de45db13303a266226851a"
+  integrity sha512-+2XpQV9LLZeanU4ZevzRnGFg2neDeKHgFLjP6YLW+tly0IvrhqT4u8enLGjLH3qeh85g19xY5rsAusfwTdn5lg==
+  dependencies:
+    "@floating-ui/utils" "^0.2.0"
+
+"@floating-ui/dom@^1.6.5":
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.5.tgz#323f065c003f1d3ecf0ff16d2c2c4d38979f4cb9"
+  integrity sha512-Nsdud2X65Dz+1RHjAIP0t8z5e2ff/IRbei6BqFrl1urT8sDVzM1HMQ+R0XcU5ceRfyO3I6ayeqIfh+6Wb8LGTw==
+  dependencies:
+    "@floating-ui/core" "^1.0.0"
+    "@floating-ui/utils" "^0.2.0"
+
+"@floating-ui/utils@^0.2.0":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.2.tgz#d8bae93ac8b815b2bd7a98078cf91e2724ef11e5"
+  integrity sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==
 
 "@fontsource/roboto-mono@^4.5.10":
   version "4.5.10"
@@ -294,6 +314,11 @@
   resolved "https://registry.npmjs.org/@types/unist/-/unist-2.0.10.tgz"
   integrity sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==
 
+"@yr/monotone-cubic-spline@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@yr/monotone-cubic-spline/-/monotone-cubic-spline-1.0.3.tgz#7272d89f8e4f6fb7a1600c28c378cc18d3b577b9"
+  integrity sha512-FQXkOta0XBSUPHndIKON2Y9JeQz5ZeMqLYZVVK93FliNBFm7LNMIZmY6FrMEB9XPcDbE2bekMbZD6kzDkxwYjA==
+
 ansi-regex@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
@@ -328,6 +353,19 @@ anymatch@~3.1.2:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+apexcharts@^3.49.1:
+  version "3.49.1"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.49.1.tgz#837d1d4fd80f2c092f0587e8fb6bbc31ad57a0f3"
+  integrity sha512-MqGtlq/KQuO8j0BBsUJYlRG8VBctKwYdwuBtajHgHTmSgUU3Oai+8oYN/rKCXwXzrUlYA+GiMgotAIbXY2BCGw==
+  dependencies:
+    "@yr/monotone-cubic-spline" "^1.0.3"
+    svg.draggable.js "^2.2.2"
+    svg.easing.js "^2.0.0"
+    svg.filter.js "^2.0.2"
+    svg.pathmorphing.js "^0.1.3"
+    svg.resize.js "^1.4.3"
+    svg.select.js "^3.0.1"
 
 arg@^5.0.2:
   version "5.0.2"
@@ -594,19 +632,28 @@ flowbite-svelte-icons@^0.4.4:
   resolved "https://registry.npmjs.org/flowbite-svelte-icons/-/flowbite-svelte-icons-0.4.5.tgz"
   integrity sha512-IBudEfw9B4UE2gCRMhbRnyE8p7qq7DDMauy0mPVIShzjaN3yVk2AmAHia1JRe9jUC98Wn7xNk/IdJlXeQj19Iw==
 
-flowbite-svelte@^0.37.5:
-  version "0.37.5"
-  resolved "https://registry.npmjs.org/flowbite-svelte/-/flowbite-svelte-0.37.5.tgz"
-  integrity sha512-aAPJygrfqY1+wkcl4rG/ikTxAdnB1p4Xe2sKG3Jm+BJsMZvArgl6/weH+DimoSjHLAMLhtd4spAbzfT8eHBgnQ==
+flowbite-svelte@^0.46.5:
+  version "0.46.5"
+  resolved "https://registry.yarnpkg.com/flowbite-svelte/-/flowbite-svelte-0.46.5.tgz#5f4e611b9bc3ee9baa649fb967339d1b6c3c1f84"
+  integrity sha512-YSykTuR4AtD9RpACnrg9fac/fDtK+VB3oNggsM2MOmO9d2qr+bYyb7xdoLeSHepcVI330rEusEBZzTvUnwHfEQ==
   dependencies:
-    "@popperjs/core" "^2.11.8"
-    classnames "^2.3.2"
-    flowbite "^1.6.5"
+    "@floating-ui/dom" "^1.6.5"
+    apexcharts "^3.49.1"
+    flowbite "^2.3.0"
+    tailwind-merge "^2.3.0"
 
 flowbite@^1.6.5:
   version "1.8.1"
   resolved "https://registry.npmjs.org/flowbite/-/flowbite-1.8.1.tgz"
   integrity sha512-lXTcO8a6dRTPFpINyOLcATCN/pK1Of/jY4PryklPllAiqH64tSDUsOdQpar3TO59ZXWwugm2e92oaqwH6X90Xg==
+  dependencies:
+    "@popperjs/core" "^2.9.3"
+    mini-svg-data-uri "^1.4.3"
+
+flowbite@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/flowbite/-/flowbite-2.3.0.tgz#0730e35d8b0d1dcdea26bb27d848bd9c0141cde1"
+  integrity sha512-pm3JRo8OIJHGfFYWgaGpPv8E+UdWy0Z3gEAGufw+G/1dusaU/P1zoBLiQpf2/+bYAi+GBQtPVG86KYlV0W+AFQ==
   dependencies:
     "@popperjs/core" "^2.9.3"
     mini-svg-data-uri "^1.4.3"
@@ -1294,12 +1341,67 @@ svelte@^3.54.0:
   resolved "https://registry.npmjs.org/svelte/-/svelte-3.59.2.tgz"
   integrity sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==
 
-tailwind-merge@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-2.2.1.tgz"
-  integrity sha512-o+2GTLkthfa5YUt4JxPfzMIpQzZ3adD1vLVkvKE1Twl9UAhGsEbIZhHHZVRttyW177S8PDJI3bTQNaebyofK3Q==
+svg.draggable.js@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/svg.draggable.js/-/svg.draggable.js-2.2.2.tgz#c514a2f1405efb6f0263e7958f5b68fce50603ba"
+  integrity sha512-JzNHBc2fLQMzYCZ90KZHN2ohXL0BQJGQimK1kGk6AvSeibuKcIdDX9Kr0dT9+UJ5O8nYA0RB839Lhvk4CY4MZw==
   dependencies:
-    "@babel/runtime" "^7.23.7"
+    svg.js "^2.0.1"
+
+svg.easing.js@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/svg.easing.js/-/svg.easing.js-2.0.0.tgz#8aa9946b0a8e27857a5c40a10eba4091e5691f12"
+  integrity sha512-//ctPdJMGy22YoYGV+3HEfHbm6/69LJUTAqI2/5qBvaNHZ9uUFVC82B0Pl299HzgH13rKrBgi4+XyXXyVWWthA==
+  dependencies:
+    svg.js ">=2.3.x"
+
+svg.filter.js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/svg.filter.js/-/svg.filter.js-2.0.2.tgz#91008e151389dd9230779fcbe6e2c9a362d1c203"
+  integrity sha512-xkGBwU+dKBzqg5PtilaTb0EYPqPfJ9Q6saVldX+5vCRy31P6TlRCP3U9NxH3HEufkKkpNgdTLBJnmhDHeTqAkw==
+  dependencies:
+    svg.js "^2.2.5"
+
+svg.js@>=2.3.x, svg.js@^2.0.1, svg.js@^2.2.5, svg.js@^2.4.0, svg.js@^2.6.5:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/svg.js/-/svg.js-2.7.1.tgz#eb977ed4737001eab859949b4a398ee1bb79948d"
+  integrity sha512-ycbxpizEQktk3FYvn/8BH+6/EuWXg7ZpQREJvgacqn46gIddG24tNNe4Son6omdXCnSOaApnpZw6MPCBA1dODA==
+
+svg.pathmorphing.js@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/svg.pathmorphing.js/-/svg.pathmorphing.js-0.1.3.tgz#c25718a1cc7c36e852ecabc380e758ac09bb2b65"
+  integrity sha512-49HWI9X4XQR/JG1qXkSDV8xViuTLIWm/B/7YuQELV5KMOPtXjiwH4XPJvr/ghEDibmLQ9Oc22dpWpG0vUDDNww==
+  dependencies:
+    svg.js "^2.4.0"
+
+svg.resize.js@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/svg.resize.js/-/svg.resize.js-1.4.3.tgz#885abd248e0cd205b36b973c4b578b9a36f23332"
+  integrity sha512-9k5sXJuPKp+mVzXNvxz7U0uC9oVMQrrf7cFsETznzUDDm0x8+77dtZkWdMfRlmbkEEYvUn9btKuZ3n41oNA+uw==
+  dependencies:
+    svg.js "^2.6.5"
+    svg.select.js "^2.1.2"
+
+svg.select.js@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/svg.select.js/-/svg.select.js-2.1.2.tgz#e41ce13b1acff43a7441f9f8be87a2319c87be73"
+  integrity sha512-tH6ABEyJsAOVAhwcCjF8mw4crjXSI1aa7j2VQR8ZuJ37H2MBUbyeqYr5nEO7sSN3cy9AR9DUwNg0t/962HlDbQ==
+  dependencies:
+    svg.js "^2.2.5"
+
+svg.select.js@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/svg.select.js/-/svg.select.js-3.0.1.tgz#a4198e359f3825739226415f82176a90ea5cc917"
+  integrity sha512-h5IS/hKkuVCbKSieR9uQCj9w+zLHoPh+ce19bBYyqF53g6mnPB8sAtIbe1s9dh2S2fCmYX2xel1Ln3PJBbK4kw==
+  dependencies:
+    svg.js "^2.6.5"
+
+tailwind-merge@^2.2.1, tailwind-merge@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-2.3.0.tgz#27d2134fd00a1f77eca22bcaafdd67055917d286"
+  integrity sha512-vkYrLpIP+lgR0tQCG6AP7zZXCTLc1Lnv/CCRT3BqJ9CZ3ui2++GPaGb1x/ILsINIMSYqqvrpqjUFsMNLlW99EA==
+  dependencies:
+    "@babel/runtime" "^7.24.1"
 
 tailwindcss@^3.4.4:
   version "3.4.4"
