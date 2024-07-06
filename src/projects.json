@@ -7,7 +7,7 @@
       "tags": ["NLP", "Media", "Politics", "Research"],
       "links": [
         {
-          "title": "Project MEiNunG",
+          "title": "Project meinung",
           "url": "https://www.ja.tum.de/ja/projekte/2024/meinung/"
         },
         {
@@ -121,8 +121,8 @@
       "tags": ["SvelteKit", "TailwindCSS"],
       "links": [
         {
-          "title": "knothe.me",
-          "url": "https://knothe.me"
+          "title": "GitHub",
+          "url": "https://github.com/timkn/tims-website"
         }
       ]
     }
