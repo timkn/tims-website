@@ -1,13 +1,13 @@
 {
   "projects": [
     {
-      "title": "Research Project MEiNunG",
+      "title": "Research Project Meinung",
       "subtitle": "TUM: Junge Akademie",
       "description": "Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form. To achieve this, a language analysis using machine-based learning will lead to a universally applicable framework.",
       "tags": ["NLP", "Media", "Politics", "Research"],
       "links": [
         {
-          "title": "Project meinung",
+          "title": "Project Meinung",
           "url": "https://www.ja.tum.de/ja/projekte/2024/meinung/"
         },
         {
