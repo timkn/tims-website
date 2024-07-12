@@ -5,8 +5,9 @@
 </script>
 
 <Title />
+
 <P class="text-dark-sky dark:text-white-sky m-8" align="center"
-    >student of computer science at the Technical University of Munich</P
+    >working on projects</P
 >
 
 <Projects />

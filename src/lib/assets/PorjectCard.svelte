@@ -34,14 +34,14 @@
         {project.description}
     </p>
 
-    <ul class="mb-2 flex flex-wrap justify-start gap-1">
+    <ul class="mb-2 flex flex-wrap justify-start gap-1 flex-wrap-reverse">
         {#each project.tags as tag}
             <Badge>
                 {tag}
             </Badge>
         {/each}
     </ul>
-    <ul class="mb-2 flex flex-wrap justify-start gap-2">
+    <ul class="mb-2 flex flex-wrap justify-start gap-2 flex-wrap-reverse">
         {#each project.links.slice(1) as link}
             <A href={link.url} color="redToYellow">
                 {link.title}
@@ -50,7 +50,11 @@
         {/each}
     </ul>
     <GradientButton href={project.links[0].url} color="redToYellow">
-        Read more: {project.links[0].title}
+        {#if project.links[0].tryIt}
+            Try it: {project.links[0].title}
+        {:else}
+            Read more: {project.links[0].title}
+        {/if}
         <ArrowRightOutline class="ml-2 h-3.5 w-3.5" />
     </GradientButton>
 </Card>

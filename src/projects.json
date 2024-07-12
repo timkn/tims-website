@@ -1,9 +1,30 @@
 {
   "projects": [
     {
+      "title": "Azubiwerk.us",
+      "subtitle": "EuroTeQ Collider",
+      "description": "Developed a community website using SvelteKit and Supabase. Facilitated communication and engagement among residents with features for event coordination, announcements, and resource sharing.",
+      "tags": ["Typescript", "SvelteKit", "Supabase"],
+      "links": [
+        {
+          "title": "Website",
+          "url": "https://azubiwerk.us",
+          "tryIt": true
+        },
+        {
+          "title": "Azubiwerk München",
+          "url": "https://www.azubiwerk-muenchen.de/"
+        },
+        {
+          "title": "challenge description",
+          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
+        }
+      ]
+    },
+    {
       "title": "Research Project Meinung",
       "subtitle": "TUM: Junge Akademie",
-      "description": "Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form. To achieve this, a language analysis using machine-based learning will lead to a universally applicable framework.",
+      "description": "Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form.",
       "tags": ["NLP", "Media", "Politics", "Research"],
       "links": [
         {
@@ -29,7 +50,7 @@
       "subtitle": "🎉 Winning Project - Wildtrack",
       "description": "tum.services is a web application that helps students to find the right courses and modules for their studies at TUM. It uses a recommendation system based on the student's preferences and the courses' content.",
       "url": "https://devpost.com/software/worldess",
-      "tags": ["Python", "OpenAI", "TUMLive"],
+      "tags": ["Python", "OpenAI", "LangChain"],
       "links": [
         {
           "title": "DevPost",
@@ -75,7 +96,7 @@
       "subtitle": "START Hack St. Gallen 2023",
       "description": "CarbonDiet is a mobile application that uses image recognition and AI technology to scan grocery shopping receipts, allowing users to calculate their carbon footprint. Part of the Google Cloud Challenge.",
       "url": "https://github.com/TheNewReducers/flutter_app",
-      "tags": ["Flutter", "Python", "OpenAI"],
+      "tags": ["Flutter", "Python", "OpenAI", "FastAPI"],
       "links": [
         {
           "title": "GitHub",
@@ -88,7 +109,15 @@
       "subtitle": "CHECK24 Challange",
       "description": "This project is part of the CHECK24 GenDev Holiday Challenge. The app is built with a SvelteKit frontend, a FastAPI backend interfaced with a PostgreSQL database, and also incorporates a Redis cache for performance enhancement.",
       "url": "https://github.com/timkn/CHECK24-GenDev",
-      "tags": ["Python", "SvelteKit", "TailwindCSS", "Redis", "Postgres"],
+      "tags": [
+        "Python",
+        "SvelteKit",
+        "TailwindCSS",
+        "Redis",
+        "Postgres",
+        "FastAPI",
+        "Typescript"
+      ],
       "links": [
         {
           "title": "GitHub",
@@ -101,7 +130,7 @@
       "subtitle": "JA Sciene Hack 2023",
       "description": "openLYKE, an open and transparent social media platform that puts you in control. With openLYKE, you can connect with others, share your thoughts, and engage in meaningful conversations while having full control over your data and privacy.",
       "url": "https://github.com/openLYKE/backend",
-      "tags": ["Flutter", "Python"],
+      "tags": ["Flutter", "Python", "FastAPI", "Postgres"],
       "links": [
         {
           "title": "tumthinktank.de",
