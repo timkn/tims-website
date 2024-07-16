@@ -1,6 +1,25 @@
 {
   "projects": [
     {
+      "title": "Spotify Sessions",
+      "subtitle": "Contorl the Spotify queue with a web app and share this session with friends",
+      "description": "10.07.2024: currently in development, not for public use. The Spotify users must me manuelly approved, as a policy of the Spotify API. The app is built with NextJS and FastAPI, and uses the Spotify API to control the queue. The frontend is styled with TailwindCSS and Flowbite. The app is hosted on GCP.",
+      "tags": [
+        "Typescript",
+        "NextJS",
+        "FastAPI",
+        "TailwindCSS",
+        "SpotifyAPI",
+        "Google Cloud Platform"
+      ],
+      "links": [
+        {
+          "title": "not for public use queue.knothe.me",
+          "url": "https://queue.knothe.me"
+        }
+      ]
+    },
+    {
       "title": "Azubiwerk.us",
       "subtitle": "EuroTeQ Collider",
       "description": "Developed a community website using SvelteKit and Supabase. Facilitated communication and engagement among residents with features for event coordination, announcements, and resource sharing.",
