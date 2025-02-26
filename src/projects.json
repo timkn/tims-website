@@ -1,70 +1,6 @@
 {
   "projects": [
     {
-      "title": "Spotify Sessions",
-      "subtitle": "Contorl the Spotify queue with a web app and share this session with friends",
-      "description": "10.07.2024: currently in development, not for public use. The Spotify users must me manuelly approved, as a policy of the Spotify API. The app is built with NextJS and FastAPI, and uses the Spotify API to control the queue. The frontend is styled with TailwindCSS and Flowbite. The app is hosted on GCP.",
-      "tags": [
-        "Typescript",
-        "NextJS",
-        "FastAPI",
-        "TailwindCSS",
-        "SpotifyAPI",
-        "Google Cloud Platform"
-      ],
-      "links": [
-        {
-          "title": "not for public use queue.knothe.me",
-          "url": "https://queue.knothe.me"
-        }
-      ]
-    },
-    {
-      "title": "Azubiwerk.us",
-      "subtitle": "EuroTeQ Collider",
-      "description": "Developed a community website using SvelteKit and Supabase. Facilitated communication and engagement among residents with features for event coordination, announcements, and resource sharing.",
-      "tags": ["Typescript", "SvelteKit", "Supabase"],
-      "links": [
-        {
-          "title": "Website",
-          "url": "https://azubiwerk.us",
-          "tryIt": true
-        },
-        {
-          "title": "Azubiwerk München",
-          "url": "https://www.azubiwerk-muenchen.de/"
-        },
-        {
-          "title": "challenge description",
-          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
-        }
-      ]
-    },
-    {
-      "title": "Research Project Meinung",
-      "subtitle": "TUM: Junge Akademie",
-      "description": "Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form.",
-      "tags": ["NLP", "Media", "Politics", "Research"],
-      "links": [
-        {
-          "title": "Project Meinung",
-          "url": "https://www.ja.tum.de/ja/projekte/2024/meinung/"
-        },
-        {
-          "title": "TUM: Junge Akademie",
-          "url": "https://www.ja.tum.de/"
-        },
-        {
-          "title": "BR Next",
-          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7154171360980647937/"
-        },
-        {
-          "title": "deRSE24",
-          "url": "https://events.hifis.net/event/994/contributions/8483/"
-        }
-      ]
-    },
-    {
       "title": "HackaTUM 2023: TUM.services",
       "subtitle": "🎉 Winning Project - Wildtrack",
       "description": "tum.services is a web application that helps students to find the right courses and modules for their studies at TUM. It uses a recommendation system based on the student's preferences and the courses' content.",
@@ -120,6 +56,70 @@
         {
           "title": "GitHub",
           "url": "https://github.com/TheNewReducers/flutter_app"
+        }
+      ]
+    },
+    {
+      "title": "Research Project Meinung",
+      "subtitle": "TUM: Junge Akademie",
+      "description": "Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form.",
+      "tags": ["NLP", "Media", "Politics", "Research"],
+      "links": [
+        {
+          "title": "Project Meinung",
+          "url": "https://www.ja.tum.de/ja/projekte/2024/meinung/"
+        },
+        {
+          "title": "TUM: Junge Akademie",
+          "url": "https://www.ja.tum.de/"
+        },
+        {
+          "title": "BR Next",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7154171360980647937/"
+        },
+        {
+          "title": "deRSE24",
+          "url": "https://events.hifis.net/event/994/contributions/8483/"
+        }
+      ]
+    },
+    {
+      "title": "Spotify Sessions",
+      "subtitle": "Contorl the Spotify queue with a web app and share this session with friends",
+      "description": "10.07.2024: currently in development, not for public use. The Spotify users must me manuelly approved, as a policy of the Spotify API. The app is built with NextJS and FastAPI, and uses the Spotify API to control the queue. The frontend is styled with TailwindCSS and Flowbite. The app is hosted on GCP.",
+      "tags": [
+        "Typescript",
+        "NextJS",
+        "FastAPI",
+        "TailwindCSS",
+        "SpotifyAPI",
+        "Google Cloud Platform"
+      ],
+      "links": [
+        {
+          "title": "not for public use queue.knothe.me",
+          "url": "https://queue.knothe.me"
+        }
+      ]
+    },
+    {
+      "title": "Azubiwerk.us",
+      "subtitle": "EuroTeQ Collider",
+      "description": "Developed a community website using SvelteKit and Supabase. Facilitated communication and engagement among residents with features for event coordination, announcements, and resource sharing.",
+      "tags": ["Typescript", "SvelteKit", "Supabase"],
+      "links": [
+        {
+          "title": "Website",
+          "url": "https://azubiwerk.us",
+          "tryIt": true
+        },
+        {
+          "title": "Azubiwerk München",
+          "url": "https://www.azubiwerk-muenchen.de/"
+        },
+        {
+          "title": "challenge description",
+          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
         }
       ]
     },
