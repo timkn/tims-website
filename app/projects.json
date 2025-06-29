@@ -1,0 +1,132 @@
+{
+  "projects": [
+    {
+      "title": "TUM.services",
+      "subtitle": "🎉 HackaTUM 2023 – Winning Project (Wildtrack)",
+      "description": "A web application that recommends courses and modules at TUM based on students' preferences and course content using intelligent recommendation systems.",
+      "tags": ["Python", "OpenAI", "LangChain"],
+      "links": [
+        {
+          "title": "DevPost",
+          "url": "https://devpost.com/software/tum-services"
+        },
+        { "title": "GitHub", "url": "https://github.com/tum-services" },
+        { "title": "HackaTUM", "url": "https://hack.tum.de/" }
+      ]
+    },
+    {
+      "title": "Wordless",
+      "subtitle": "🎉 HackaTUM 2022 – Winning Project (Wildtrack)",
+      "description": "We transcribe TUM live lectures, offer keyword search, and provide subtitles in multiple languages to make education more accessible and inclusive.",
+      "tags": ["Python", "OpenAI Whisper", "TUMLive", "Flask"],
+      "links": [
+        { "title": "DevPost", "url": "https://devpost.com/software/worldess" },
+        {
+          "title": "TUM CIT",
+          "url": "https://www.cit.tum.de/cit/aktuelles/article/eat-code-drink-repeat/"
+        },
+        { "title": "Website", "url": "https://wordless.cc", "tryIt": true },
+        {
+          "title": "HackaTUM 2022 Projects",
+          "url": "https://hack.tum.de/past-events/events-2022/2022-projects/"
+        }
+      ]
+    },
+    {
+      "title": "CarbonDiet",
+      "subtitle": "START Hack St. Gallen 2023",
+      "description": "A mobile app that uses AI and image recognition to scan grocery receipts and estimate users' carbon footprints. Developed as part of the Google Cloud Challenge.",
+      "tags": ["Flutter", "Python", "OpenAI", "FastAPI"],
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/TheNewReducers/flutter_app"
+        }
+      ]
+    },
+    {
+      "title": "meinung",
+      "subtitle": "Research Project – TUM: Junge Akademie",
+      "description": "An NLP-based tool to analyse and categorise moral perspectives in textual content, helping understand diverse viewpoints on societal topics in media. - Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form. To achieve this, a language analysis using machine-based learning will lead to a universally applicable framework. ",
+      "tags": ["NLP", "Media", "Politics", "Research"],
+      "links": [
+        {
+          "title": "Project Website",
+          "url": "https://www.ja.tum.de/ja/projekte/2024/meinung/"
+        },
+        { "title": "TUM: Junge Akademie", "url": "https://www.ja.tum.de/" },
+        {
+          "title": "BR Next Feature",
+          "url": "https://www.linkedin.com/feed/update/urn:li:activity:7154171360980647937/"
+        },
+        {
+          "title": "deRSE24 Talk",
+          "url": "https://events.hifis.net/event/994/contributions/8483/"
+        }
+      ]
+    },
+    {
+      "title": "Azubiwerk.us",
+      "subtitle": "EuroTeQ Collider Challenge",
+      "description": "A community web platform built with SvelteKit and Supabase, supporting residents with event coordination, announcements, and resource sharing.",
+      "tags": ["TypeScript", "SvelteKit", "Supabase"],
+      "links": [
+        { "title": "Website", "url": "https://azubiwerk.us", "tryIt": true },
+        {
+          "title": "Azubiwerk München",
+          "url": "https://www.azubiwerk-muenchen.de/"
+        },
+        {
+          "title": "Challenge Description",
+          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
+        }
+      ]
+    },
+    {
+      "title": "CHECK24 GenDev Holiday Challenge",
+      "subtitle": "CHECK24 Developer Challenge",
+      "description": "A holiday challenge app featuring a SvelteKit frontend, FastAPI backend, PostgreSQL database, and Redis cache for performance.",
+      "tags": [
+        "Python",
+        "SvelteKit",
+        "TailwindCSS",
+        "Redis",
+        "Postgres",
+        "FastAPI",
+        "TypeScript"
+      ],
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://devpost.com/software/check24-gendev-holiday-challenge"
+        }
+      ]
+    },
+    {
+      "title": "openLYKE",
+      "subtitle": "JA Science Hack 2023",
+      "description": "An open-source social media platform focused on user privacy, transparency, and control. Designed for meaningful engagement and ethical data usage.",
+      "tags": ["Flutter", "Python", "FastAPI", "Postgres"],
+      "links": [
+        { "title": "GitHub", "url": "https://github.com/openLYKE/backend" },
+        {
+          "title": "Tum Think Tank – Trustworthy Recommenders",
+          "url": "https://tumthinktank.de/de/news/trustworthy-recommender-systems/"
+        },
+        {
+          "title": "Tum Think Tank – Reboot Social Media Lab",
+          "url": "https://tumthinktank.de/tag/rebootsocialmedialab/"
+        }
+      ]
+    },
+    {
+      "title": "knothe.me",
+      "subtitle": "Personal Website",
+      "description": "My personal website designed and developed with React Router, TypeScript, and Vite. Originally built with SvelteKit and Flowbite (v1), now rebuilt using shadcn/ui components.",
+      "tags": ["React Router", "TypeScript", "Vite", "TailwindCSS"],
+      "links": [
+        { "title": "GitHub", "url": "https://github.com/timkn/tims-website" }
+      ]
+    }
+  ]
+}
