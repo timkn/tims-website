@@ -10,6 +10,8 @@ import {
 import type { Route } from "./+types/root";
 import "./app.css";
 
+import "@fontsource-variable/roboto-mono";
+
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
@@ -29,6 +31,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="/theme-init.js" />
         <Meta />
         <Links />
       </head>
