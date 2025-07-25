@@ -26,13 +26,13 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
       </CardHeader>
 
-      <CardContent className="pb-5 flex-grow">
+      <CardContent>
         <p className="text-sm leading-relaxed text-foreground/85 font-normal">
           {project.description}
         </p>
       </CardContent>
 
-      <CardFooter className="pt-4 border-t border-border/30 mt-auto bg-muted/20 ">
+      <CardFooter className="pt-2   mt-auto bg-muted/20 ">
         <div className="flex flex-col gap-3 w-full">
           {project.links.length > 1 && (
             <div className="flex flex-wrap gap-1">
@@ -57,7 +57,10 @@ export default function ProjectCard({ project }: { project: Project }) {
             asChild
             className="w-full justify-between group/btn shadow-sm hover:shadow-md transition-all duration-200"
           >
-            <a href={project.links[0].url} target="_blank">
+            <a
+              href={project.links[0].url}
+              target={project.links[0].external ? "_blank" : "_self"}
+            >
               <IconBook className="h-4 w-4" />
               <span className="font-medium">{project.links[0].title}</span>
               <IconArrowRight className="h-4 w-4 group-hover/btn:translate-x-1.5 transition-transform duration-300" />

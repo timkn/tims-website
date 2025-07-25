@@ -1,6 +1,11 @@
 "use client";
 
-import { IconMoonFilled, IconSunFilled } from "@tabler/icons-react";
+import {
+  IconBrightness,
+  IconBrightnessFilled,
+  IconMoonFilled,
+  IconSunFilled,
+} from "@tabler/icons-react";
 import { NavLink } from "react-router";
 import { useTheme, getSystemTheme } from "../lib/utils";
 
@@ -23,9 +28,9 @@ export default function Navbar() {
         aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
       >
         {isDark ? (
-          <IconSunFilled className="h-5 w-5 text-yellow-500" />
+          <IconBrightness className="h-5 w-5 text-white-sky-foreground" />
         ) : (
-          <IconMoonFilled className="h-5 w-5 text-gray-600 dark:text-gray-300" />
+          <IconBrightnessFilled className="h-5 w-5 text-dark-sky-foreground" />
         )}
       </button>
     </nav>

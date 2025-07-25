@@ -4,6 +4,7 @@ export type ProjectLink = {
   title: string;
   url: string;
   tryIt?: boolean;
+  external?: boolean;
 };
 
 export type Project = {

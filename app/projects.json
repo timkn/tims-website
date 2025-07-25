@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "title": "NudgeSense",
+      "subtitle": "🎉 Apple Swift Student Challenge 2025 Winner",
+      "description": "NudgeSense empowers users to identify and counteract subtle digital influences that manipulate their decision making, enabling more informed and autonomous choices.",
+      "tags": ["Swift", "iOS", "Core ML"],
+      "links": [
+        {
+          "title": "Learn More",
+          "url": "/nudgesense",
+          "tryIt": true,
+          "external": false
+        },
+        {
+          "title": "Swift Student Challenge",
+          "url": "https://developer.apple.com/swift-student-challenge/"
+        },
+        {
+          "title": "WWDC25",
+          "url": "https://developer.apple.com/wwdc25/"
+        }
+      ]
+    },
+    {
       "title": "TUM.services",
       "subtitle": "🎉 HackaTUM 2023 – Winning Project (Wildtrack)",
       "description": "A web application that recommends courses and modules at TUM based on students' preferences and course content using intelligent recommendation systems.",
@@ -25,7 +47,6 @@
           "title": "TUM CIT",
           "url": "https://www.cit.tum.de/cit/aktuelles/article/eat-code-drink-repeat/"
         },
-        { "title": "Website", "url": "https://wordless.cc", "tryIt": true },
         {
           "title": "HackaTUM 2022 Projects",
           "url": "https://hack.tum.de/past-events/events-2022/2022-projects/"
@@ -66,23 +87,6 @@
       ]
     },
     {
-      "title": "Azubiwerk.us",
-      "subtitle": "EuroTeQ Collider Challenge",
-      "description": "A community web platform built with SvelteKit and Supabase, supporting residents with event coordination, announcements, and resource sharing.",
-      "tags": ["TypeScript", "SvelteKit", "Supabase"],
-      "links": [
-        { "title": "Website", "url": "https://azubiwerk.us", "tryIt": true },
-        {
-          "title": "Azubiwerk München",
-          "url": "https://www.azubiwerk-muenchen.de/"
-        },
-        {
-          "title": "Challenge Description",
-          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
-        }
-      ]
-    },
-    {
       "title": "CHECK24 GenDev Holiday Challenge",
       "subtitle": "CHECK24 Developer Challenge",
       "description": "A holiday challenge app featuring a SvelteKit frontend, FastAPI backend, PostgreSQL database, and Redis cache for performance.",
@@ -98,10 +102,27 @@
       "links": [
         {
           "title": "GitHub",
-          "url": "https://devpost.com/software/check24-gendev-holiday-challenge"
+          "url": "https://github.com/timkn/CHECK24-GenDev"
         }
       ]
     },
+    {
+      "title": "Azubiwerk.us",
+      "subtitle": "EuroTeQ Collider Challenge",
+      "description": "A community web platform built with SvelteKit and Supabase, supporting residents with event coordination, announcements, and resource sharing.",
+      "tags": ["TypeScript", "SvelteKit", "Supabase"],
+      "links": [
+        {
+          "title": "Challenge Description",
+          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
+        },
+        {
+          "title": "Azubiwerk München",
+          "url": "https://www.azubiwerk-muenchen.de/"
+        }
+      ]
+    },
+
     {
       "title": "openLYKE",
       "subtitle": "JA Science Hack 2023",
@@ -122,7 +143,7 @@
     {
       "title": "knothe.me",
       "subtitle": "Personal Website",
-      "description": "My personal website designed and developed with React Router, TypeScript, and Vite. Originally built with SvelteKit and Flowbite (v1), now rebuilt using shadcn/ui components.",
+      "description": "My personal website designed and developed with React Router, TypeScript, and Vite. Originally built with SvelteKit and Flowbite (v1), now rebuilt using shadcn/ui components (v2).",
       "tags": ["React Router", "TypeScript", "Vite", "TailwindCSS"],
       "links": [
         { "title": "GitHub", "url": "https://github.com/timkn/tims-website" }

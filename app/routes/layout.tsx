@@ -1,9 +1,9 @@
 "use client";
 
-import { Outlet } from "react-router";
+import { Outlet, useLocation } from "react-router";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useTheme, getSystemTheme } from "../lib/utils";
 
 type Star = {
@@ -18,6 +18,8 @@ type Star = {
 export default function Layout() {
   const numStars = 70;
   const [stars, setStars] = useState<Star[]>([]);
+  const location = useLocation();
+  const mainRef = useRef<HTMLElement>(null);
 
   const { theme } = useTheme();
 
@@ -26,10 +28,16 @@ export default function Layout() {
 
   function createStars() {
     const newStars: Star[] = [];
+    // Get actual document height, with minimum of 100vh
+    const documentHeight = Math.max(
+      document.body.scrollHeight,
+      window.innerHeight
+    );
+
     for (let i = 0; i < numStars; i++) {
       const size = Math.random() * 3;
       const star: Star = {
-        top: Math.random() * 100 + "vh",
+        top: Math.random() * documentHeight + "px",
         left: Math.random() * 100 + "vw",
         width: size + "px",
         height: size + "px",
@@ -42,14 +50,40 @@ export default function Layout() {
   }
 
   useEffect(() => {
-    createStars();
-  }, []);
+    // Clear existing stars first
+    setStars([]);
+
+    // Wait for the main content to actually change
+    if (!mainRef.current) return;
+
+    const observer = new MutationObserver(() => {
+      // Debounce to avoid multiple rapid calls
+      setTimeout(() => {
+        createStars();
+      }, 100);
+    });
+
+    // Watch for changes in the main content (where Outlet renders)
+    observer.observe(mainRef.current, {
+      childList: true,
+      subtree: true,
+    });
+
+    // Also create stars immediately for initial load
+    setTimeout(() => {
+      createStars();
+    }, 50);
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [location.pathname]);
 
   return (
     <div className="flex min-h-screen flex-col relative">
       <div className="night-sky dark:night-sky-dark z-0"></div>
       <Navbar />
-      <main className="flex-grow z-20">
+      <main ref={mainRef} className="flex-grow z-20">
         <Outlet />
       </main>
       <Footer />

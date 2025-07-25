@@ -8,6 +8,7 @@ import {
 export default [
   layout("routes/layout.tsx", [
     index("routes/home.tsx"),
+    route("nudgesense", "./routes/nudgesense.tsx"),
     route("imprint", "./routes/imprint.tsx"),
     route("privacy", "./routes/privacy.tsx"),
   ]),
