@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
+  --font-sans: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   --font-mono: "Roboto Mono Variable", monospace;
@@ -146,6 +146,7 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -211,10 +212,12 @@ body {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1);
     }
+
     50% {
       opacity: 0.3;
       transform: translate(-50%, -50%) scale(1.5);
     }
+
     100% {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1);
@@ -225,15 +228,19 @@ body {
     0% {
       transform: translate(-50%, -50%) translateX(0px) translateY(0px);
     }
+
     25% {
       transform: translate(-50%, -50%) translateX(10px) translateY(-15px);
     }
+
     50% {
       transform: translate(-50%, -50%) translateX(-8px) translateY(-10px);
     }
+
     75% {
       transform: translate(-50%, -50%) translateX(15px) translateY(5px);
     }
+
     100% {
       transform: translate(-50%, -50%) translateX(-5px) translateY(12px);
     }

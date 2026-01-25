@@ -11,5 +11,6 @@ export default [
     route("nudgesense", "./routes/nudgesense.tsx"),
     route("imprint", "./routes/imprint.tsx"),
     route("privacy", "./routes/privacy.tsx"),
+    route("student-events", "./routes/student-events/route.tsx"),
   ]),
 ] satisfies RouteConfig;

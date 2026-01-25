@@ -88,7 +88,7 @@ export default function Layout() {
       </main>
       <Footer />
 
-      {stars.map((star, index) => (
+      {!location.pathname.includes('/student-events') && stars.map((star, index) => (
         <div
           key={index}
           className={isDark ? "star-dark" : "star"}
