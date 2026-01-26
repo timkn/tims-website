@@ -3,7 +3,7 @@ import { Badge } from "~/components/ui/badge";
 
 export const meta: MetaFunction = () => {
     return [
-        { title: "Studentische Events & Symposien | Tim Knothe" },
+        { title: "Studentische Events & Symposien" },
         {
             name: "description",
             content: "Übersicht der renommiertesten studentischen Symposien: St. Gallen Symposium, LSE German Symposium, START Summit, European Forum Alpbach. Networking mit Staatsoberhäuptern, CEOs und Nobelpreisträgern."
