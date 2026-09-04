@@ -19,9 +19,18 @@ export default function Home({ loaderData }: Route.ComponentProps) {
 
   return (
     <div>
-      <p className="text-center text-2xl font-semibold font-mono m-4 lg:mt-10 lg:text-4xl">
-        👋 Hey, I'm Tim.
-      </p>
+      <div className="flex items-center justify-center gap-6 m-4 lg:mt-10 lg:gap-10">
+        <img
+          src="/tim.jpg"
+          alt="Tim Knothe"
+          className="w-28 h-28 rounded shadow-xl object-cover object-top shrink-0 lg:w-40 lg:h-40"
+        />
+        <p className="text-2xl font-semibold font-mono lg:text-4xl">
+          Hey, I'm Tim<span className="hidden lg:inline"> -</span>
+          <br />
+          nice to have you here.
+        </p>
+      </div>
 
       <div className="flex justify-center">
         <Projects projects={projects} />
