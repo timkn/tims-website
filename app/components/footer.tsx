@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="flex flex-col items-center md:items-start order-2 lg:order-1">
         <p className="text-center">© 2026 Tim Knothe</p>
         <div className="flex flex-row items-center justify-center gap-2">
-          <p className="text-center text-xs opacity-60 mt-1">v2.2.0</p>
+          <p className="text-center text-xs opacity-60 mt-1">v2.3.0</p>
           <p className="text-center text-xs opacity-60 mt-1">
             <a
               href="https://github.com/timkn/tims-website"

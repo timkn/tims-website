@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "title": "MeinErbe",
+      "subtitle": "Legal Loves Tech Hackathon 2026 – TUM & LMU (Challenge by the Bavarian Ministry of Justice)",
+      "description": "MeinErbe makes German statutory succession understandable for people without legal training: a short questionnaire builds an interactive family tree while you type, showing each relative's statutory share, their order of succession (I, II, III) and – for those who inherit nothing – the reason why. Scenarios such as disclaiming an inheritance are recalculated instantly, every rule comes with its citation in the law, a case-aware assistant answers follow-up questions with sources, and results can be exported as PDF. Plain language mode, English, and a fullscreen tree view keep it accessible; the family tree never leaves the browser, so no account and no server-side storage are needed.",
+      "tags": [
+        "Legal Tech",
+        "Inheritance Law",
+        "Visualization",
+        "LLM Assistant",
+        "Accessibility",
+        "Privacy by Design"
+      ],
+      "links": [
+        {
+          "title": "Try MeinErbe",
+          "url": "https://meinerbe.org",
+          "tryIt": true,
+          "external": true
+        },
+        {
+          "title": "Bayerisches Staatsministerium der Justiz",
+          "url": "https://www.justiz.bayern.de/"
+        }
+      ]
+    },
+    {
       "title": "NudgeSense",
       "subtitle": "🎉 Apple Swift Student Challenge 2025 Winner",
       "description": "NudgeSense empowers users to identify and counteract subtle digital influences that manipulate their decision making, enabling more informed and autonomous choices.",
@@ -54,18 +79,6 @@
       ]
     },
     {
-      "title": "CarbonDiet",
-      "subtitle": "START Hack St. Gallen 2023",
-      "description": "A mobile app that uses AI and image recognition to scan grocery receipts and estimate users' carbon footprints. Developed as part of the Google Cloud Challenge.",
-      "tags": ["Flutter", "Python", "OpenAI", "FastAPI"],
-      "links": [
-        {
-          "title": "GitHub",
-          "url": "https://github.com/TheNewReducers/flutter_app"
-        }
-      ]
-    },
-    {
       "title": "meinung",
       "subtitle": "Research Project – TUM: Junge Akademie",
       "description": "An NLP-based tool to analyse and categorise moral perspectives in textual content, helping understand diverse viewpoints on societal topics in media. - Moral values are individually diverse and are expressed in a varied and massive way in news and media. Our goal is the development of a tool for analyzing and categorizing moral viewpoints on societal issues expressed in text form. To achieve this, a language analysis using machine-based learning will lead to a universally applicable framework. ",
@@ -107,23 +120,6 @@
       ]
     },
     {
-      "title": "Azubiwerk.us",
-      "subtitle": "EuroTeQ Collider Challenge",
-      "description": "A community web platform built with SvelteKit and Supabase, supporting residents with event coordination, announcements, and resource sharing.",
-      "tags": ["TypeScript", "SvelteKit", "Supabase"],
-      "links": [
-        {
-          "title": "Challenge Description",
-          "url": "https://www.ja.tum.de/fileadmin/w00big/www/EuroTeQ/EuroTeQ-collider-2024_Challenge__03.pdf"
-        },
-        {
-          "title": "Azubiwerk München",
-          "url": "https://www.azubiwerk-muenchen.de/"
-        }
-      ]
-    },
-
-    {
       "title": "openLYKE",
       "subtitle": "JA Science Hack 2023",
       "description": "An open-source social media platform focused on user privacy, transparency, and control. Designed for meaningful engagement and ethical data usage.",
@@ -147,6 +143,18 @@
       "tags": ["React Router", "TypeScript", "Vite", "TailwindCSS"],
       "links": [
         { "title": "GitHub", "url": "https://github.com/timkn/tims-website" }
+      ]
+    },
+    {
+      "title": "CarbonDiet",
+      "subtitle": "START Hack St. Gallen 2023",
+      "description": "A mobile app that uses AI and image recognition to scan grocery receipts and estimate users' carbon footprints. Developed as part of the Google Cloud Challenge.",
+      "tags": ["Flutter", "Python", "OpenAI", "FastAPI"],
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/TheNewReducers/flutter_app"
+        }
       ]
     }
   ]
